@@ -1,0 +1,907 @@
+{
+  "asset_license": "CC0-1.0",
+  "synthetic_datetime_labels": true,
+  "independent_accuracy_test": false,
+  "records": [
+    {
+      "id": "D001",
+      "filename": "20260901_011500_C085.jpg",
+      "direction": "left",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-01T01:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D002",
+      "filename": "20260901_031500_C089.jpg",
+      "direction": "right",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-01T03:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D003",
+      "filename": "20260901_051500_C001.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T05:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D004",
+      "filename": "20260901_071500_C027.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T07:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D005",
+      "filename": "20260901_101500_C002.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T10:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D006",
+      "filename": "20260901_131500_C040.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T13:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D007",
+      "filename": "20260901_161500_C003.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T16:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D008",
+      "filename": "20260901_191500_C028.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T19:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D009",
+      "filename": "20260901_211500_C004.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T21:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D010",
+      "filename": "20260901_231500_C041.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-01T23:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D011",
+      "filename": "20260902_011500_C086.jpg",
+      "direction": "left",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-02T01:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D012",
+      "filename": "20260902_041500_C091.jpg",
+      "direction": "front",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-02T04:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D013",
+      "filename": "20260902_071500_C005.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T07:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D014",
+      "filename": "20260902_091500_C029.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T09:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D015",
+      "filename": "20260902_111500_C006.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T11:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D016",
+      "filename": "20260902_131500_C042.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T13:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D017",
+      "filename": "20260902_151500_C007.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T15:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D018",
+      "filename": "20260902_171500_C030.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T17:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D019",
+      "filename": "20260902_191500_C053.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-02T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D020",
+      "filename": "20260902_221500_C008.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-02T22:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D021",
+      "filename": "20260903_011500_C087.jpg",
+      "direction": "front",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-03T01:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D022",
+      "filename": "20260903_031500_C090.jpg",
+      "direction": "right",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-03T03:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D023",
+      "filename": "20260903_051500_C043.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-03T05:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D024",
+      "filename": "20260903_071500_C009.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-03T07:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D025",
+      "filename": "20260903_101500_C031.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-03T10:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D026",
+      "filename": "20260903_131500_C093.jpg",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-03T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D027",
+      "filename": "20260903_161500_C010.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-03T16:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D028",
+      "filename": "20260903_191500_C063.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-03T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D029",
+      "filename": "20260903_211500_C044.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-03T21:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D030",
+      "filename": "20260903_231500_C011.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-03T23:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D031",
+      "filename": "20260904_011500_C088.jpg",
+      "direction": "right",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-04T01:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D032",
+      "filename": "20260904_041500_C092.jpg",
+      "direction": "left",
+      "state": "spacer_missing",
+      "scenario_timestamp": "2026-09-04T04:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "spacer_missing"
+    },
+    {
+      "id": "D033",
+      "filename": "20260904_071500_C032.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-04T07:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D034",
+      "filename": "20260904_091500_C012.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-04T09:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D035",
+      "filename": "20260904_111500_C045.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-04T11:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D036",
+      "filename": "20260904_131500_C097.jpg",
+      "direction": "right",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-04T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D037",
+      "filename": "20260904_151500_C013.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-04T15:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D038",
+      "filename": "20260904_171500_C033.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-04T17:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D039",
+      "filename": "20260904_191500_C054.jpg",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-04T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D040",
+      "filename": "20260904_221500_C068.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-04T22:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D041",
+      "filename": "20260905_011500_C014.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-05T01:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D042",
+      "filename": "20260905_031500_C046.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-05T03:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D043",
+      "filename": "20260905_051500_C015.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-05T05:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D044",
+      "filename": "20260905_071500_C073.jpg",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-05T07:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D045",
+      "filename": "20260905_101500_C079.jpg",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-05T10:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D046",
+      "filename": "20260905_131500_C074.jpg",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-05T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D047",
+      "filename": "20260905_161500_C094.jpg",
+      "direction": "right",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-05T16:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D048",
+      "filename": "20260905_191500_C055.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-05T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D049",
+      "filename": "20260905_211500_C064.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-05T21:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D050",
+      "filename": "20260905_231500_C056.jpg",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-05T23:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D051",
+      "filename": "20260906_011500_C034.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-06T01:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D052",
+      "filename": "20260906_041500_C016.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-06T04:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D053",
+      "filename": "20260906_071500_C082.jpg",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-06T07:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D054",
+      "filename": "20260906_091500_C075.jpg",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-06T09:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D055",
+      "filename": "20260906_111500_C080.jpg",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-06T11:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D056",
+      "filename": "20260906_131500_C069.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-06T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D057",
+      "filename": "20260906_151500_C099.jpg",
+      "direction": "right",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-06T15:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D058",
+      "filename": "20260906_171500_C095.jpg",
+      "direction": "left",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-06T17:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D059",
+      "filename": "20260906_191500_C057.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-06T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D060",
+      "filename": "20260906_221500_C065.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-06T22:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D061",
+      "filename": "20260907_011500_C047.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-07T01:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D062",
+      "filename": "20260907_031500_C017.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-07T03:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D063",
+      "filename": "20260907_051500_C035.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-07T05:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D064",
+      "filename": "20260907_071500_C076.jpg",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-07T07:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D065",
+      "filename": "20260907_101500_C083.jpg",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-07T10:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D066",
+      "filename": "20260907_131500_C058.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-07T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D067",
+      "filename": "20260907_161500_C098.jpg",
+      "direction": "left",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-07T16:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D068",
+      "filename": "20260907_191500_C070.jpg",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-07T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D069",
+      "filename": "20260907_211500_C059.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-07T21:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D070",
+      "filename": "20260907_231500_C066.jpg",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-07T23:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D071",
+      "filename": "20260908_011500_C018.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-08T01:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D072",
+      "filename": "20260908_041500_C048.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-08T04:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D073",
+      "filename": "20260908_071500_C077.jpg",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-08T07:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D074",
+      "filename": "20260908_091500_C019.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-08T09:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D075",
+      "filename": "20260908_111500_C036.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-08T11:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D076",
+      "filename": "20260908_131500_C060.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-08T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D077",
+      "filename": "20260908_151500_C096.jpg",
+      "direction": "left",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-08T15:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D078",
+      "filename": "20260908_171500_C020.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-08T17:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D079",
+      "filename": "20260908_191500_C071.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-08T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D080",
+      "filename": "20260908_221500_C061.jpg",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-08T22:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D081",
+      "filename": "20260909_011500_C049.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-09T01:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D082",
+      "filename": "20260909_031500_C021.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-09T03:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D083",
+      "filename": "20260909_051500_C037.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-09T05:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D084",
+      "filename": "20260909_071500_C081.jpg",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-09T07:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D085",
+      "filename": "20260909_101500_C078.jpg",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-09T10:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D086",
+      "filename": "20260909_131500_C022.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-09T13:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D087",
+      "filename": "20260909_161500_C050.jpg",
+      "direction": "right",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-09T16:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D088",
+      "filename": "20260909_191500_C067.jpg",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-09T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D089",
+      "filename": "20260909_211500_C062.jpg",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-09T21:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D090",
+      "filename": "20260909_231500_C023.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-09T23:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D091",
+      "filename": "20260910_011500_C038.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T01:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D092",
+      "filename": "20260910_041500_C024.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T04:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D093",
+      "filename": "20260910_071500_C084.jpg",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "scenario_timestamp": "2026-09-10T07:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_after_spacer_missing"
+    },
+    {
+      "id": "D094",
+      "filename": "20260910_091500_C051.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T09:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D095",
+      "filename": "20260910_111500_C025.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T11:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D096",
+      "filename": "20260910_131500_C100.jpg",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "scenario_timestamp": "2026-09-10T13:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "cap_nut_missing"
+    },
+    {
+      "id": "D097",
+      "filename": "20260910_151500_C039.jpg",
+      "direction": "left",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T15:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D098",
+      "filename": "20260910_171500_C026.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T17:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    },
+    {
+      "id": "D099",
+      "filename": "20260910_191500_C072.jpg",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "scenario_timestamp": "2026-09-10T19:15:00",
+      "expected_result": "NG",
+      "expected_defect_type": "washer_before_spacer_missing"
+    },
+    {
+      "id": "D100",
+      "filename": "20260910_221500_C052.jpg",
+      "direction": "front",
+      "state": "normal",
+      "scenario_timestamp": "2026-09-10T22:15:00",
+      "expected_result": "OK",
+      "expected_defect_type": null
+    }
+  ]
+}

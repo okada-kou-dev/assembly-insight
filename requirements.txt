@@ -1,0 +1,5 @@
+﻿torch==2.13.0
+torchvision==0.28.0
+ultralytics==8.4.138
+pandas==3.0.5
+streamlit==1.63.0

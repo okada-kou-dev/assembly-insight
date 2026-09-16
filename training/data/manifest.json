@@ -1,0 +1,806 @@
+{
+  "schema_version": 1,
+  "asset_license": "CC0-1.0",
+  "records": [
+    {
+      "id": "left_cap_nut_missing_001",
+      "direction": "left",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/left_cap_nut_missing_001.png",
+      "image_sha256": "cfdbdfcf057cd9c125099d6429149e52fb395fcb29a6ac1aea5a031bc641ec45",
+      "label": "data/labels/left_cap_nut_missing_001.txt",
+      "label_sha256": "d9ef3be5394f0cba0ebc032c556fe6db92d600b27e53a03dc9c7957f92dd51bf"
+    },
+    {
+      "id": "left_cap_nut_missing_002",
+      "direction": "left",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/left_cap_nut_missing_002.png",
+      "image_sha256": "3707f749174bf080ed7e0e54d02460fcd31c9f283783a9b395a244ff5224edd3",
+      "label": "data/labels/left_cap_nut_missing_002.txt",
+      "label_sha256": "d23ba705b41dff84d2fac6c52b2d7fe63d3ebffc9d935a1757b3a1319974be8d"
+    },
+    {
+      "id": "left_cap_nut_missing_003",
+      "direction": "left",
+      "state": "cap_nut_missing",
+      "split": "val",
+      "image": "data/images/left_cap_nut_missing_003.png",
+      "image_sha256": "1019f13ddd35eece649a79d2cf8f7a8c72aa2e79b3ec4974184de0dedc575673",
+      "label": "data/labels/left_cap_nut_missing_003.txt",
+      "label_sha256": "3ee7c1263e0905319ce573b92ef3cf395d80abebbd2ad7db88066ca2c2c0e961"
+    },
+    {
+      "id": "left_normal_001",
+      "direction": "left",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/left_normal_001.png",
+      "image_sha256": "b0cfe649d88be4186cc84beb8b7ea6c7e6cb3adf7d87a0badc09561eff2749c5",
+      "label": "data/labels/left_normal_001.txt",
+      "label_sha256": "d7daf0232a1fac49117cbba14fb63f02cf6d43531bed5a57d3109e77b81b52bf"
+    },
+    {
+      "id": "left_normal_002",
+      "direction": "left",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/left_normal_002.png",
+      "image_sha256": "26486f1f313fe684af2b19b6d7914d8e49adbb262ea43f2583efce392a12ed27",
+      "label": "data/labels/left_normal_002.txt",
+      "label_sha256": "2d53ca00c6f0f7a7addacee821d040f1d61edd463216795f9f9481b4b09eea7e"
+    },
+    {
+      "id": "left_normal_003",
+      "direction": "left",
+      "state": "normal",
+      "split": "val",
+      "image": "data/images/left_normal_003.png",
+      "image_sha256": "9712e5c10b98820d855b2c3bad6559376ce85adf87d132eb75b698c5b3e7c70d",
+      "label": "data/labels/left_normal_003.txt",
+      "label_sha256": "d91e9e411bc0099d761b9fe8f53209a7984e0b9074778eacacb1663665f35eb0"
+    },
+    {
+      "id": "left_spacer_missing_001",
+      "direction": "left",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/left_spacer_missing_001.png",
+      "image_sha256": "b6270a666af34c696b0d0fd5f8abe67833355a039ec6b2b01f99d5d339109082",
+      "label": "data/labels/left_spacer_missing_001.txt",
+      "label_sha256": "b9b01542232908fbdfa75d1dde10617daab5a750b7a7109fd874ef930efc7c73"
+    },
+    {
+      "id": "left_spacer_missing_002",
+      "direction": "left",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/left_spacer_missing_002.png",
+      "image_sha256": "da1b4b938170d7481383cbfc734cc944f432a6bf41b4fcdb2946964df72f8c1e",
+      "label": "data/labels/left_spacer_missing_002.txt",
+      "label_sha256": "68b3dbef40b612f6931ab5f06c2ab11b50f9df84c5dc97e0c9e16f1f25c3df32"
+    },
+    {
+      "id": "left_spacer_missing_003",
+      "direction": "left",
+      "state": "spacer_missing",
+      "split": "val",
+      "image": "data/images/left_spacer_missing_003.png",
+      "image_sha256": "1cf638729a52e898f2ab6a14603e2889bde6a283d282fad573fba850ad68fc5d",
+      "label": "data/labels/left_spacer_missing_003.txt",
+      "label_sha256": "0d337208715effb34a8226aad76d341ffca86733c49b682cfca3ba9cbdcca646"
+    },
+    {
+      "id": "left_washer_front_missing_001",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/left_washer_front_missing_001.png",
+      "image_sha256": "ed57cd1de59c08b356d572c64d85b513db3d94df60c9f51152d5f17a59a2317d",
+      "label": "data/labels/left_washer_front_missing_001.txt",
+      "label_sha256": "cbdcabe916036c262105d04c7ceaa00a703f12ca4e236f7d5109227b5e4cf7a4"
+    },
+    {
+      "id": "left_washer_front_missing_002",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/left_washer_front_missing_002.png",
+      "image_sha256": "1514049f657ba8bdf5ec047a4445afc71404e8006f0db28950175b3d44285b50",
+      "label": "data/labels/left_washer_front_missing_002.txt",
+      "label_sha256": "916b7c4f65ed147ac7a6831727331d5db42a45f02c65f556e575bf969712875e"
+    },
+    {
+      "id": "left_washer_front_missing_003",
+      "direction": "left",
+      "state": "washer_front_missing",
+      "split": "val",
+      "image": "data/images/left_washer_front_missing_003.png",
+      "image_sha256": "731fc15a371a555731956f80756b9413952d9f9bd991a3c74375ab3c818105ae",
+      "label": "data/labels/left_washer_front_missing_003.txt",
+      "label_sha256": "5de2cf7dd506b618b07d159880eff8ca8d35dea5fadb5476bd4b5baebdd28d35"
+    },
+    {
+      "id": "left_washer_rear_missing_001",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/left_washer_rear_missing_001.png",
+      "image_sha256": "d267126bbcf1947617e513cf4169c707d5e25fc1b20545eb4da20cf1629b7346",
+      "label": "data/labels/left_washer_rear_missing_001.txt",
+      "label_sha256": "2e49e466a3f4eb2712f52da83257467fc55a16e594c79351026974e2ac996621"
+    },
+    {
+      "id": "left_washer_rear_missing_002",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/left_washer_rear_missing_002.png",
+      "image_sha256": "c1f4cd9d38b03b51b70c75208450dff5d2aba6d014ecb4fd6b5232e018612349",
+      "label": "data/labels/left_washer_rear_missing_002.txt",
+      "label_sha256": "e6974d1bbe31b2a65a511e5bbc2016f14a46941103effdb6a5401673b5f07f3b"
+    },
+    {
+      "id": "left_washer_rear_missing_003",
+      "direction": "left",
+      "state": "washer_rear_missing",
+      "split": "val",
+      "image": "data/images/left_washer_rear_missing_003.png",
+      "image_sha256": "ba9f94127e347c34a2354eb577d7fa774cd92291400120becb851b4ce116839e",
+      "label": "data/labels/left_washer_rear_missing_003.txt",
+      "label_sha256": "dd496048fdf68a04014e99d4413b73d37d48e65109b7c41c5c133f47fecac6f3"
+    },
+    {
+      "id": "right_cap_nut_missing_001",
+      "direction": "right",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/right_cap_nut_missing_001.png",
+      "image_sha256": "882f61bc2eacc891b944aade05b242210132583dfa5b371b986143e34f3d33bf",
+      "label": "data/labels/right_cap_nut_missing_001.txt",
+      "label_sha256": "0b62f8a0bfea81e6390e4baf1fa584f48644b94788b3e1dce6206997cc845522"
+    },
+    {
+      "id": "right_cap_nut_missing_002",
+      "direction": "right",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/right_cap_nut_missing_002.png",
+      "image_sha256": "decd51c5e27233953b9ba1222787bcaca73735578840c407575bae2e6e1816a4",
+      "label": "data/labels/right_cap_nut_missing_002.txt",
+      "label_sha256": "c496f55e2d68157ef8ad273d30dffcb209f48e0a3908b9299d61e5711fb90d3d"
+    },
+    {
+      "id": "right_cap_nut_missing_003",
+      "direction": "right",
+      "state": "cap_nut_missing",
+      "split": "val",
+      "image": "data/images/right_cap_nut_missing_003.png",
+      "image_sha256": "af0fce93c273fa12a67369b2c7961e904ef659e97f4055889000d23e5ef91ec2",
+      "label": "data/labels/right_cap_nut_missing_003.txt",
+      "label_sha256": "66ed73dccaf21ec333f632033f42c4014c6f14b65011f0ef40a825c1fac6e8b7"
+    },
+    {
+      "id": "right_normal_001",
+      "direction": "right",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/right_normal_001.png",
+      "image_sha256": "f66e7f702ae7988569a21076280c4c163d56e0a817950f9bf5e67f8d546d06de",
+      "label": "data/labels/right_normal_001.txt",
+      "label_sha256": "971eb7503952e5136a821ab500b4aacb775ce9dc690bcb30a4e808b4e7c5540e"
+    },
+    {
+      "id": "right_normal_002",
+      "direction": "right",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/right_normal_002.png",
+      "image_sha256": "3a2cea0df1e88f11b0e7a2d74a9214bf73510af5e74ea2b8c02ecd65d676fbc2",
+      "label": "data/labels/right_normal_002.txt",
+      "label_sha256": "dbd7fa876df057f1ee4ca110716af028555f927c5e8a28d5e0dd119cc5fad79b"
+    },
+    {
+      "id": "right_normal_003",
+      "direction": "right",
+      "state": "normal",
+      "split": "val",
+      "image": "data/images/right_normal_003.png",
+      "image_sha256": "ace6cefcce6127031f7027dea5af1d5031230006d347574e601c6d78ae9aa693",
+      "label": "data/labels/right_normal_003.txt",
+      "label_sha256": "38e997e15a08ddec95b8726ba9c31dab2539ed71ac726f140f0ffd4c4279fc9a"
+    },
+    {
+      "id": "right_spacer_missing_001",
+      "direction": "right",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/right_spacer_missing_001.png",
+      "image_sha256": "e2039eeb7c65fd40ec1b2b7daeedb4453328c1dabd7f9f7381f2f5e9c3e2c53b",
+      "label": "data/labels/right_spacer_missing_001.txt",
+      "label_sha256": "2c01d3a4d0192f5ee92af9ed6140109849b5e6cb4f06c2b753370aa022cb86f2"
+    },
+    {
+      "id": "right_spacer_missing_002",
+      "direction": "right",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/right_spacer_missing_002.png",
+      "image_sha256": "64c2cb9725c9af97c6098b916a32b309d9403558a7bf36acb235c828ec5d8590",
+      "label": "data/labels/right_spacer_missing_002.txt",
+      "label_sha256": "3d75acb3165b22710289dc5249b652adad79affd5e54a01763e9538535905563"
+    },
+    {
+      "id": "right_spacer_missing_003",
+      "direction": "right",
+      "state": "spacer_missing",
+      "split": "val",
+      "image": "data/images/right_spacer_missing_003.png",
+      "image_sha256": "aed4eabedb04e15a7809ba956fc435d28b2221f585f76af3cc0d6e701fc72019",
+      "label": "data/labels/right_spacer_missing_003.txt",
+      "label_sha256": "a866f78740d263f5abd9916ed41d4f318da7e78671f6ace03c050e2feaa21d7c"
+    },
+    {
+      "id": "right_washer_front_missing_001",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/right_washer_front_missing_001.png",
+      "image_sha256": "4e1411c4cee1497ecf59e77e5131a9bb5d28e8f61b4240bb69c69d0bf220342d",
+      "label": "data/labels/right_washer_front_missing_001.txt",
+      "label_sha256": "8d7169ae2a233cc32fe5545472d0b0cc635c40bab9ce29f34edef96b69bf0209"
+    },
+    {
+      "id": "right_washer_front_missing_002",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/right_washer_front_missing_002.png",
+      "image_sha256": "0152b75b81ed084db4d8280c1d788c4c0577a8e31a461452c9d23a52a76d48a1",
+      "label": "data/labels/right_washer_front_missing_002.txt",
+      "label_sha256": "ad9058b25220e315c41e84d85d905b8ec5a39416353df2f0f9ac836097247ac9"
+    },
+    {
+      "id": "right_washer_front_missing_003",
+      "direction": "right",
+      "state": "washer_front_missing",
+      "split": "val",
+      "image": "data/images/right_washer_front_missing_003.png",
+      "image_sha256": "62eb4328740c5f4863080316a86e496e2ca475d729d8598c4b2a3ae2ff1a5a56",
+      "label": "data/labels/right_washer_front_missing_003.txt",
+      "label_sha256": "e6226a7e6f5ce437725e78f0beefd6aedc873438b94d48caf5cad0d40b3868ee"
+    },
+    {
+      "id": "right_washer_rear_missing_001",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/right_washer_rear_missing_001.png",
+      "image_sha256": "ab5da1f4bf24a7e5dbad70d9f0031c36e9a21ac2473c94e45a1a08cf5a3d6954",
+      "label": "data/labels/right_washer_rear_missing_001.txt",
+      "label_sha256": "f3a8045156d51da613cfd43437ae82a565e3db338576325672a28f376d5f920b"
+    },
+    {
+      "id": "right_washer_rear_missing_002",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/right_washer_rear_missing_002.png",
+      "image_sha256": "47d602062d3d0a91997abcc967ec6eca686fc371998791678f803c9d8b1ee4ec",
+      "label": "data/labels/right_washer_rear_missing_002.txt",
+      "label_sha256": "9db94d31ccdad3e345e0ad3f991488bdfbebcd37e3c37b3fe12883cfc0bb2ac8"
+    },
+    {
+      "id": "right_washer_rear_missing_003",
+      "direction": "right",
+      "state": "washer_rear_missing",
+      "split": "val",
+      "image": "data/images/right_washer_rear_missing_003.png",
+      "image_sha256": "8b0eeddf60a8ac53192e7e8a351652ac01af171ff5198611dd9ed576c0474133",
+      "label": "data/labels/right_washer_rear_missing_003.txt",
+      "label_sha256": "184d2b6c9c80a378dc58684c6c78b01e0a85a137afcb84d0f039882a030be413"
+    },
+    {
+      "id": "front_cap_nut_missing_001",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_001.jpg",
+      "image_sha256": "1a63043acf8e43a81a677c25a3a79100f29c52dc44aab25047a1d48d512d7ea4",
+      "label": "data/labels/front_cap_nut_missing_001.txt",
+      "label_sha256": "1004c82f9d3662a4946d5bf86a59278ef4140a20f429587b099a183e18cd1f9f"
+    },
+    {
+      "id": "front_cap_nut_missing_002",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_002.jpg",
+      "image_sha256": "1358e151a1de769733d96e4526c61dd9b1ac5f36bca8f0ce0820e1c70b061c8b",
+      "label": "data/labels/front_cap_nut_missing_002.txt",
+      "label_sha256": "7bc3e09855d0977a58945900a1ad1e621195228e6d236aa15159193d8d2fa61a"
+    },
+    {
+      "id": "front_cap_nut_missing_003",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_003.jpg",
+      "image_sha256": "36e14d77d1dc9ad5e7cfe3832e9238ca3fb826f09fc504af9e69b1f99c558d2d",
+      "label": "data/labels/front_cap_nut_missing_003.txt",
+      "label_sha256": "5246c24740b36644bd68c96d82c05588b03f36ed2abd1d09468ebff822ba7b67"
+    },
+    {
+      "id": "front_cap_nut_missing_004",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_004.jpg",
+      "image_sha256": "8d370b147dffff38179736c9c4d34beaf95bda67f66d5662d0cab11d503fca6e",
+      "label": "data/labels/front_cap_nut_missing_004.txt",
+      "label_sha256": "fe1250132cc90c7d7771aa1f7048aba56ecc576727e1fe7df7ac7a9df1688ea6"
+    },
+    {
+      "id": "front_cap_nut_missing_005",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_005.jpg",
+      "image_sha256": "3ba29d604c0931b91dd43bc16d9dc870333c3978bf1259bc9002e5dbe846c04a",
+      "label": "data/labels/front_cap_nut_missing_005.txt",
+      "label_sha256": "a5532185b9e1fc5b62712b6612715fd42d2c8e4fe65ca6a12922d4966e30d5ba"
+    },
+    {
+      "id": "front_cap_nut_missing_006",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_006.jpg",
+      "image_sha256": "2665ba22e174659c0188cb14cd3be94e7f68a08b01f7a1fbc609c56a98a81585",
+      "label": "data/labels/front_cap_nut_missing_006.txt",
+      "label_sha256": "9dcc5ec839508462aa53e23338f386db3715c317b0b54625911429ba06381f18"
+    },
+    {
+      "id": "front_cap_nut_missing_007",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_007.jpg",
+      "image_sha256": "715c3924655148f3887a4e8155a7fb24e9f0047270833a713d9ffe65e9207e6f",
+      "label": "data/labels/front_cap_nut_missing_007.txt",
+      "label_sha256": "279647ecda77afc661fd5ee45d47b281e909586ffff5729820b574502b176949"
+    },
+    {
+      "id": "front_cap_nut_missing_008",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "train",
+      "image": "data/images/front_cap_nut_missing_008.jpg",
+      "image_sha256": "a4905e394ab20a6faed20bb70552ebe07e64604dfcee98c15a7097dd05f14c5a",
+      "label": "data/labels/front_cap_nut_missing_008.txt",
+      "label_sha256": "ce0dba068a64b798bf5430247e41cc66d76cf9ce14b6c73628287ec06b1ae88f"
+    },
+    {
+      "id": "front_normal_001",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_001.jpg",
+      "image_sha256": "d028f6e4ac5c093448933ab3eb8a16d1d93ae7b888083f5de3a9fbb7f5574d68",
+      "label": "data/labels/front_normal_001.txt",
+      "label_sha256": "6cfec5f7bda08a7c95da4cdab6a241d0927ae11341e5975ea3eba04a57473658"
+    },
+    {
+      "id": "front_normal_002",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_002.jpg",
+      "image_sha256": "e05809fcb3c9a34d93387aa3c239f2a52d1b5db46268c3a18e5fba6755e5c0a7",
+      "label": "data/labels/front_normal_002.txt",
+      "label_sha256": "26656c2c9a64b8ff8d2417a4372654f3ed3ef60217dd7d7f0ee4201035ea23b1"
+    },
+    {
+      "id": "front_normal_003",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_003.jpg",
+      "image_sha256": "5cbb647d1d38d9d75e0c95f23c1a6f94700cfb860b42e95268bb9a3ea0858f96",
+      "label": "data/labels/front_normal_003.txt",
+      "label_sha256": "5281d070c2fdab02d60a0eaf74afd05f02fd848a3dcb976787f078c1048fedb5"
+    },
+    {
+      "id": "front_normal_004",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_004.jpg",
+      "image_sha256": "b7514e69b3c4890aca092ea29622abbaa2652841749574941ec2557134b2a4a7",
+      "label": "data/labels/front_normal_004.txt",
+      "label_sha256": "b3d492b85d2c24bce938967b507da6b7532b3eb8b53bc87fc43b312c7baab226"
+    },
+    {
+      "id": "front_normal_005",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_005.jpg",
+      "image_sha256": "333804aa1e415b140a6c7d0fc4b437438768170d464222f0b2ff7d59eec80554",
+      "label": "data/labels/front_normal_005.txt",
+      "label_sha256": "92df8ae401a5d08172f129f9ed72d70d64f1c2f73d75609a77f4f3a0d89987cb"
+    },
+    {
+      "id": "front_normal_006",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_006.jpg",
+      "image_sha256": "f73e4570c7566b34950530de5ca74799be8fd774fb07b23fc384ed94ca604619",
+      "label": "data/labels/front_normal_006.txt",
+      "label_sha256": "768d2f49de9dbcb4b2bb0556a737c2a72e644057e1238bff356945ee5634d29f"
+    },
+    {
+      "id": "front_normal_007",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_007.jpg",
+      "image_sha256": "a2dc652eac845b24d3b4beb9a74326add88374f08bce314fa81d983689d1b71f",
+      "label": "data/labels/front_normal_007.txt",
+      "label_sha256": "9cef651a5a1f98ac9f9f350f5d297d076521064162b0318e657a7ec9e505699c"
+    },
+    {
+      "id": "front_normal_008",
+      "direction": "front",
+      "state": "normal",
+      "split": "train",
+      "image": "data/images/front_normal_008.jpg",
+      "image_sha256": "254f72793d0a603b03e098b259d5d0c292118f2f4624966d5cc70fa42026ed5e",
+      "label": "data/labels/front_normal_008.txt",
+      "label_sha256": "e0476153a2aea196565ce8f04edb93bfa2c062dd4550e77103f923c05fb3f0a2"
+    },
+    {
+      "id": "front_spacer_missing_001",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_001.jpg",
+      "image_sha256": "7664e9ef82b891e614601ae60b1c36b58822fc7313d30b6051aa9a700cebd010",
+      "label": "data/labels/front_spacer_missing_001.txt",
+      "label_sha256": "e591325c4daf5cc2ee89c673622d618b35830723b4b72d70691232f9e5cd1763"
+    },
+    {
+      "id": "front_spacer_missing_002",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_002.jpg",
+      "image_sha256": "3e6bb86f324af0b2742a9ed1f1f31aee5f8362b7c062267f2dd28455d459a606",
+      "label": "data/labels/front_spacer_missing_002.txt",
+      "label_sha256": "f23e4fb8678effe8282a9fc48d9f4918943e57a4a2afaf2a6e69e61ccae7b213"
+    },
+    {
+      "id": "front_spacer_missing_003",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_003.jpg",
+      "image_sha256": "1d7c7a9c42e081a44524dea575d4ee781b0b5870eb344e80b900b6b357ae4248",
+      "label": "data/labels/front_spacer_missing_003.txt",
+      "label_sha256": "619e649dc58621813921483adbacbe40395e2627f7bda9c079f7e3006437d8c9"
+    },
+    {
+      "id": "front_spacer_missing_004",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_004.jpg",
+      "image_sha256": "916ff04beb00656de5765e6497af91ae98d27fe5691a032dc2e5eb9e4ec409d5",
+      "label": "data/labels/front_spacer_missing_004.txt",
+      "label_sha256": "de55b6e885dc14b8ea7d380fd74e2213c851fc32bb4884605074d3eda269a645"
+    },
+    {
+      "id": "front_spacer_missing_005",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_005.jpg",
+      "image_sha256": "adf99aa948aa703f70db2418068438155a6c2234e3c44c2bef9417b95344a174",
+      "label": "data/labels/front_spacer_missing_005.txt",
+      "label_sha256": "21146b20066f84e6ffbf2acf5664795c3d933725d057fab1798a6bc9f0fecc7f"
+    },
+    {
+      "id": "front_spacer_missing_006",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_006.jpg",
+      "image_sha256": "e7adf994ddb855f52939c5d5cfc441a920fac7814d523fb356cebe70ebff9cee",
+      "label": "data/labels/front_spacer_missing_006.txt",
+      "label_sha256": "19d2d7956bc84c037950fc0d0814c346e887709c31cda63da7980bdd129f9a8b"
+    },
+    {
+      "id": "front_spacer_missing_007",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_007.jpg",
+      "image_sha256": "68a109073719290391d578a3f25350acee1d234df97ef20d05d8db079468bfd4",
+      "label": "data/labels/front_spacer_missing_007.txt",
+      "label_sha256": "ce0d6d33c5e1cd801a6dfdec3858a64be9a1e41f401fe9496f4f5f0d2416c876"
+    },
+    {
+      "id": "front_spacer_missing_008",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "train",
+      "image": "data/images/front_spacer_missing_008.jpg",
+      "image_sha256": "88e68bd6281544a174d90627e12cc0120324c3634481a6d0a3a345ce41770ad2",
+      "label": "data/labels/front_spacer_missing_008.txt",
+      "label_sha256": "2dee9544b4dc9ebfa8773feeffb50366c083aa8e8f57391c422b4aaf9b680e26"
+    },
+    {
+      "id": "front_washer_front_missing_001",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_001.jpg",
+      "image_sha256": "9e0028764743e76f5479085506dbfe9e95e9208814f5f457b75ef5854168e836",
+      "label": "data/labels/front_washer_front_missing_001.txt",
+      "label_sha256": "0bd03e9053d19fd5fdb9e80ea77b6154e25bfac5af66c7726832da596dc39503"
+    },
+    {
+      "id": "front_washer_front_missing_002",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_002.jpg",
+      "image_sha256": "03eff2d16a49c675d7eaeaa5789fdcb4a5d977f27c9a31a206611c4c6937cdb5",
+      "label": "data/labels/front_washer_front_missing_002.txt",
+      "label_sha256": "7a12b63ecb953c9e8b93849cfb6e69c35eee34607d4c11ca0443d674790e64f5"
+    },
+    {
+      "id": "front_washer_front_missing_003",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_003.jpg",
+      "image_sha256": "4db7491a5bc98be9f1520c26f77fc2cc1e85908cd71846aabc55291a8f72355f",
+      "label": "data/labels/front_washer_front_missing_003.txt",
+      "label_sha256": "8d5477af5610496eb493b732450bf3f919ab598129f44858195528970267e444"
+    },
+    {
+      "id": "front_washer_front_missing_004",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_004.jpg",
+      "image_sha256": "141e2587a1c676a7468d6170bc6a09434cb0ece2a4aab3400ee1258ba06fce72",
+      "label": "data/labels/front_washer_front_missing_004.txt",
+      "label_sha256": "65a6e4bda955b81740f56ac6b765b0ec666d4e409cabce1f19879683dd4eb554"
+    },
+    {
+      "id": "front_washer_front_missing_005",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_005.jpg",
+      "image_sha256": "eded9db8cb60d196a91179d40762e8ac69fb68de39205b0438da662b72ef650a",
+      "label": "data/labels/front_washer_front_missing_005.txt",
+      "label_sha256": "330290c539cc67b7e0a0a196fa51ecf4309f689d8dcea5636e9d0c05fec8298c"
+    },
+    {
+      "id": "front_washer_front_missing_006",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_006.jpg",
+      "image_sha256": "1d7d29bb2fb3c22ba2ed52052eb8cdfe71feff5dc7882aa21e9551fe2f447969",
+      "label": "data/labels/front_washer_front_missing_006.txt",
+      "label_sha256": "088ef61e32c1800cc357a2d139f42e0e27694d49b76f4c5b8b95be97d2f3863c"
+    },
+    {
+      "id": "front_washer_front_missing_007",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_007.jpg",
+      "image_sha256": "474969e0fa9f76a37d202f513da37251a439c8e251dec7c112b0cc5ea6b5f03a",
+      "label": "data/labels/front_washer_front_missing_007.txt",
+      "label_sha256": "714230226d2b05749d1b643c2da3e8aec341fbe9ed573f8faecac6e2f81d41da"
+    },
+    {
+      "id": "front_washer_front_missing_008",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "train",
+      "image": "data/images/front_washer_front_missing_008.jpg",
+      "image_sha256": "335ad156358e75d42841db6c7100e19b4f517b401206740da14ed6ce4c841510",
+      "label": "data/labels/front_washer_front_missing_008.txt",
+      "label_sha256": "b51fe777c428581ba810b7b05fdc086b2954c0d9cd373a443005e92103821d7c"
+    },
+    {
+      "id": "front_washer_rear_missing_001",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_001.jpg",
+      "image_sha256": "04098d71d8e8238841601722cdc84f6a9df4841b8bd336c7d9943818ae562715",
+      "label": "data/labels/front_washer_rear_missing_001.txt",
+      "label_sha256": "99ec901425a1ee76eb90146a2835a5f2fd72c29d941db4012288e0bf631beaee"
+    },
+    {
+      "id": "front_washer_rear_missing_002",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_002.jpg",
+      "image_sha256": "8875c12627791bdecc453fdea48ddc40e80dc0a0d0c9cef977aad3ad5606532c",
+      "label": "data/labels/front_washer_rear_missing_002.txt",
+      "label_sha256": "c54f0094469bf3f8afcf97236cbc12a8e915c19a8e6e95ddd058b645d71557e6"
+    },
+    {
+      "id": "front_washer_rear_missing_003",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_003.jpg",
+      "image_sha256": "e6cff6aaf906d2db3de1e26fceb5ccf9786ca5d36f899a7a191efbe0ab1e92a6",
+      "label": "data/labels/front_washer_rear_missing_003.txt",
+      "label_sha256": "20cbcbe0f857e7843310365d9bffe975901b3bec7f866f07e697d20e971420c4"
+    },
+    {
+      "id": "front_washer_rear_missing_004",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_004.jpg",
+      "image_sha256": "ef9abb910ec033fa68d4cb2813f88b6185697907077c920c003e9452809321be",
+      "label": "data/labels/front_washer_rear_missing_004.txt",
+      "label_sha256": "4a35bd783f22b8a55873161cca68e91d02e0f245e8efb40ce24f426029e8d546"
+    },
+    {
+      "id": "front_washer_rear_missing_005",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_005.jpg",
+      "image_sha256": "61eac2f248fe8eacc8c9ad88d498f36d944dd4e73824165444d3e807f669db24",
+      "label": "data/labels/front_washer_rear_missing_005.txt",
+      "label_sha256": "2318b14fa35024ea7e6fcca066b0405a43c083d3411017ae791a5052cac80484"
+    },
+    {
+      "id": "front_washer_rear_missing_006",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_006.jpg",
+      "image_sha256": "2d988b8bf6c78f57cf7c170722f628c8302f1fc5fe51a29ccaa713f3e7ce51c3",
+      "label": "data/labels/front_washer_rear_missing_006.txt",
+      "label_sha256": "366e9d5a65b6a3d3919a1779e0d8f64275ed2cdb0d09e3448e89cc415c75ccdc"
+    },
+    {
+      "id": "front_washer_rear_missing_007",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_007.jpg",
+      "image_sha256": "5402c6bcfd9a0ce66062fe347798f10368e2bf327d0dce9412702f3a6be3741d",
+      "label": "data/labels/front_washer_rear_missing_007.txt",
+      "label_sha256": "638eaeccce995795e9ddff13255beb345565003dc6b29b92c03a2b55ec49160f"
+    },
+    {
+      "id": "front_washer_rear_missing_008",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "train",
+      "image": "data/images/front_washer_rear_missing_008.jpg",
+      "image_sha256": "84c6aa71ccdb956e541cee39cb5d75c16788e4a66e54cb3c10e16f52e9592100",
+      "label": "data/labels/front_washer_rear_missing_008.txt",
+      "label_sha256": "ec4ce9f05296b573257ccea6408a3edfef6e01e182f226d57bb7d020269bb255"
+    },
+    {
+      "id": "front_cap_nut_missing_009",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "val",
+      "image": "data/images/front_cap_nut_missing_009.jpg",
+      "image_sha256": "1b4ff3c18f96d624753d0c340c216489ee221c001164d52ba9748764dee79a6a",
+      "label": "data/labels/front_cap_nut_missing_009.txt",
+      "label_sha256": "df1382f6e640eb43cf859aab5b3534a30a5b51920c487c87bb05d0b376678447"
+    },
+    {
+      "id": "front_cap_nut_missing_010",
+      "direction": "front",
+      "state": "cap_nut_missing",
+      "split": "val",
+      "image": "data/images/front_cap_nut_missing_010.jpg",
+      "image_sha256": "051de72305f84998c4703fb379418cff90ac59c2551b076e183377c5e8369670",
+      "label": "data/labels/front_cap_nut_missing_010.txt",
+      "label_sha256": "11142fc53924d5be782125c91cae04bdc3e4dfd9779d7d717658afa2f457f042"
+    },
+    {
+      "id": "front_normal_009",
+      "direction": "front",
+      "state": "normal",
+      "split": "val",
+      "image": "data/images/front_normal_009.jpg",
+      "image_sha256": "d53c12513925857b63e7d4ee823a9602b97962acc98c9e81f69b5e5574541f49",
+      "label": "data/labels/front_normal_009.txt",
+      "label_sha256": "38465d175499f4e5d1624ba534b42f597f1ebaa28c68cf59e7fd169f07ceb000"
+    },
+    {
+      "id": "front_normal_010",
+      "direction": "front",
+      "state": "normal",
+      "split": "val",
+      "image": "data/images/front_normal_010.jpg",
+      "image_sha256": "c2a94b3df006a467ac08fa217a3a71d609f487bda03728f13f03be26356ae117",
+      "label": "data/labels/front_normal_010.txt",
+      "label_sha256": "01b48cb1cfc485c670b4d717499e95e305cbc90062f7e660d7a36a01167d32c5"
+    },
+    {
+      "id": "front_spacer_missing_009",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "val",
+      "image": "data/images/front_spacer_missing_009.jpg",
+      "image_sha256": "035625e4dc4a9c26ec4638f1101af7dd47171f3ab04f5038390c8f9db97afcec",
+      "label": "data/labels/front_spacer_missing_009.txt",
+      "label_sha256": "0bef046dee96d50f3fa2550073b1b9a56cce5396c527558d11770d5a75b7c62c"
+    },
+    {
+      "id": "front_spacer_missing_010",
+      "direction": "front",
+      "state": "spacer_missing",
+      "split": "val",
+      "image": "data/images/front_spacer_missing_010.jpg",
+      "image_sha256": "76ebe0fead5b156bac7b8c602bd6629efcbe174887f578a5862dac4cfb25b794",
+      "label": "data/labels/front_spacer_missing_010.txt",
+      "label_sha256": "d8e476bbac56e2adf5fc5d8a0eb735f1f7ac226bcfac282c8565fb488ee5803f"
+    },
+    {
+      "id": "front_washer_front_missing_009",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "val",
+      "image": "data/images/front_washer_front_missing_009.jpg",
+      "image_sha256": "44b82fcf914681a5f581818e05e667d6ef5d111247bca277b4a7d155ba2fdcfe",
+      "label": "data/labels/front_washer_front_missing_009.txt",
+      "label_sha256": "3481b1be2238bc94a94fe3880ca4b2e9fead44a86afa4df58ab3690d2b20e99f"
+    },
+    {
+      "id": "front_washer_front_missing_010",
+      "direction": "front",
+      "state": "washer_front_missing",
+      "split": "val",
+      "image": "data/images/front_washer_front_missing_010.jpg",
+      "image_sha256": "421ebd41895b83cf723836a30841e0ba4e557a3d2481add2f24d67ae25359db4",
+      "label": "data/labels/front_washer_front_missing_010.txt",
+      "label_sha256": "0fd04460073ec708b0e2ac8b5dcb4c5356bdc19d667928a1201f1a2520b991fa"
+    },
+    {
+      "id": "front_washer_rear_missing_009",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "val",
+      "image": "data/images/front_washer_rear_missing_009.jpg",
+      "image_sha256": "eebe66b24800a35874438851ff18c44879614f8efc92277f7013ef052e7b0a6c",
+      "label": "data/labels/front_washer_rear_missing_009.txt",
+      "label_sha256": "e1bbac65dd36fb0317e1c8ffd8aa1152545dfae3a2e17b9f106f694131991919"
+    },
+    {
+      "id": "front_washer_rear_missing_010",
+      "direction": "front",
+      "state": "washer_rear_missing",
+      "split": "val",
+      "image": "data/images/front_washer_rear_missing_010.jpg",
+      "image_sha256": "241814c8db7f8ad4249e491a3b364f6197d79bc2d75d7df812707be853028ce3",
+      "label": "data/labels/front_washer_rear_missing_010.txt",
+      "label_sha256": "57bed8f6b49d5160044bc8e30ad43facb7e0adf764c6d6b97070ca47fe5de8b9"
+    }
+  ]
+}
